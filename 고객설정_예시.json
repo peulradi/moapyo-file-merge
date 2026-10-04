@@ -1,0 +1,9 @@
+{
+  "keys": ["주문번호"],
+  "aliases": {"주문ID": "주문번호", "제품": "상품"},
+  "required": ["주문번호", "상품"],
+  "numeric_columns": ["수량", "금액"],
+  "dedupe_exact": true,
+  "header_row": 1,
+  "sheet": null
+}
